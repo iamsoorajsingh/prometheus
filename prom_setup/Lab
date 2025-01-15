@@ -1,0 +1,4 @@
+Download Prometheus binary version 2.40.1 from https://prometheus.io/download/, unarchive the same and start the Prometheus server process using Prometheus binary.
+
+
+Note: For now, you do not need to create a service for Prometheus, you can simply start the process using Prometheus binary itself.
