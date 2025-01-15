@@ -10,3 +10,11 @@ wget https://github.com/prometheus/prometheus/releases/download/v2.40.1/promethe
         tar -xvf /root/prometheus-2.40.1.linux-amd64.tar.gz && \
         cd /root/prometheus-2.40.1.linux-amd64 && \
         ./prometheus 
+
+=========================================================================================================================================================
+In the previous question, you already downloaded the Prometheus package, and you might have started the Prometheus process using the Prometheus binary. Now, let's set up Prometheus and create a systemd service unit file to manage the Prometheus service. Once done, start and enable the service.
+Click on the PrometheusDocs button to take help with the documentation. Please note that you have already downloaded the required package in the previous question.
+
+
+Note: Prometheus process is already stopped, which you started in the previous question.
+
