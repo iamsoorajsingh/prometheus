@@ -2,3 +2,11 @@ Download Prometheus binary version 2.40.1 from https://prometheus.io/download/, 
 
 
 Note: For now, you do not need to create a service for Prometheus, you can simply start the process using Prometheus binary itself.
+
+
+#!/bin/bash
+
+wget https://github.com/prometheus/prometheus/releases/download/v2.40.1/prometheus-2.40.1.linux-amd64.tar.gz &&\
+        tar -xvf /root/prometheus-2.40.1.linux-amd64.tar.gz && \
+        cd /root/prometheus-2.40.1.linux-amd64 && \
+        ./prometheus 
